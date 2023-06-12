@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Lescéramiquesdesophie </title>
+        <link rel="stylesheet" href="styleInfos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;800&display=swap" rel="stylesheet"> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+            <div>
+                <h1> Informations </h1>
+            </div>
+            <section id="menu"> <!-- Menu de la page -->
+                <div>
+                    <nav id="nav">
+                        <ul>
+                           <li> <a style="font-size: 75%;">|</a></li>
+                           <li> <a href="/Index.html"> Acceuil </a> </li>
+                           <li> <a style="font-size: 75%;">|</a></li>
+                           <li> <a href="/Produits.html"> Produits </a> </li>
+                           <li> <a style="font-size: 75%;">|</a></li>
+                           <li> <a href="/Infos.html"> Informations </a> </li>
+                           <li> <a style="font-size: 75%;">|</a></li>
+                       </ul>
+                   </nav>
+                </div>
+            </section>
+        </header>
+
+        <div id="main">
+            <section id="about">
+                <h2> A propos </h2>
+                <p>Les céramiques de Sophie, c'est bien plus qu'une simple entreprise artisanale. C'est avant tout une véritable histoire d'amour pour la poterie, qui se reflète dans chacune de nos créations. Nous avons à cœur de transmettre cet amour pour l'art de la poterie à travers des pièces uniques et de qualité, façonnées à la main avec passion et minutie.</p>
+                <p>Nous croyons en l'importance de l'authenticité et de la durabilité, et c'est pourquoi nous n'utilisons que des matériaux de la plus haute qualité pour nos poteries. Chaque pièce est une véritable œuvre d'art, alliant fonctionnalité et esthétisme pour apporter une touche unique à votre intérieur.</p>
+                <p>Mais chez Les céramiques de Sophie, nous ne nous contentons pas seulement de créer des poteries. Nous croyons en la transmission de notre passion, et c'est pourquoi nous proposons également des ateliers de poterie pour vous permettre de découvrir vous aussi les joies de cette discipline ancestrale.</p>
+                <p>Nous sommes fiers de notre travail, et nous espérons que vous prendrez autant de plaisir à découvrir nos créations que nous en avons eu à les façonner pour vous.</p>
+            </section>
+
+            <section id="contact">
+                <h2> Contactez-nous </h2>
+                <form id="contact-form" method="post" action="sendEmail.php">
+                    <input type="text" name="name" placeholder="Nom" required><br>
+                    <input type="email" name="email" placeholder="Adresse e-mail" required><br>
+                    <input type="text" name="subject" placeholder="Sujet" required><br>
+                    <textarea name="message" placeholder="Message" required></textarea><br>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </div>
+
+        <footer id="footer">
+            <div>
+                <p> Les céramiques de Sophie &copy; 2023 </p>
+            </div>
+        </footer>
+    </body>
+</html>
