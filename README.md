@@ -12,7 +12,7 @@ La page HTML est divisée en plusieurs sections :
     Menu: affiche la navigation du site avec des liens vers les pages "Accueil", "Produits" et "Informations".
     Home: affiche une vidéo de présentation du site.
     Info: contient un texte de présentation décrivant les poteries de Sophie et leur qualité artisanale.
-    Abonnement: affiche le pied de page avec le copyright.
+    Crédits: affiche le pied de page avec le copyright.
 
 Structure du projet
 
