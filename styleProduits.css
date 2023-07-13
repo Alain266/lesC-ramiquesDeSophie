@@ -1,0 +1,204 @@
+/* Tous les éléments */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Option links */
+  a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #000;
+  }
+  
+  a:visited {
+    color: rgba(0, 0, 0, 0.399);
+  }
+  
+  a:hover {
+    color: #cc9933;
+  }
+
+  html {
+    caret-color: transparent;
+  }  
+  
+  body {
+    background-color: #ad4b20c4;
+    height: max-content;
+    min-height: max-content;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  #headerdiv1 {
+    position: relative;
+    top: 0.5em;
+    background-color: #cc9933;
+    text-align: center;
+    border-radius: 100px;
+    width: 66%;
+    margin: auto;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.3);
+ }
+  
+  #h1 {
+    position: relative;
+    text-rendering: geometricPrecision;
+    font-family: 'Overpass', sans-serif;
+    color: #8a3714;
+    font-size: 3em;
+    font-weight: 50;
+  }
+
+  #menu {
+    position: sticky;
+    top: 1.80em;
+    background-color: #8a3714;
+    word-spacing: 1em;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    width: 77%;
+    margin: auto;
+  }
+  
+  #menu div nav ul {
+    margin-right: 2.5%;
+    list-style: none;
+    height: max-content;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #menu div nav ul li {
+    font-size: 150%;
+    display: inline;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+  }
+
+  #produit {
+    z-index: 1; /* Valeur élevée pour placer l'élément au premier plan */
+    display: flex;
+    height: auto;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    text-rendering: geometricPrecision;
+    font-family: 'Overpass', sans-serif;
+    justify-content: space-evenly;
+  }
+
+  #postpro {
+    width: 25%;
+    height: max-content;
+    margin: auto;
+  }
+
+  #postpro img {
+    width: 100%;
+    margin: auto;
+    border-radius: 25%;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+  }
+
+  #options {
+    height: 25px;
+    margin-right: 10%;
+  }
+
+  #pro {
+    z-index: -1; /* Valeur négative pour placer l'élément au second plan */
+    background-color: #be7453;
+    height: 46em;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    display: grid;
+    gap: 5em;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 1.3%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 2.5%;
+    border: 0.4em solid rgba(255,186,80,0.76);
+    background: #ad4b20c4;
+    height: 20.5em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  #pro img {
+    height: 50%;
+  }
+
+  #pro p {
+    text-align: center;
+  }
+
+  #pro button {
+    border-radius: 10%;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.5);
+    width: 5em;
+    margin: auto;
+/* CSS */
+
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* hauteur du footer */
+}
+
+
+#footer p {
+    font-family: 'Overpass', sans-serif; 
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+  
